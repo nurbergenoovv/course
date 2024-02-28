@@ -1,0 +1,18 @@
+body {
+	height: 100vh;
+}
+main {
+	height: 90%;
+	width: 100%;
+}
+.container {
+	padding-inline: 10px;
+	height: 100%;
+}
+.course-card{
+	background-color: white;
+	transition: all 0.3s ease-in-out;
+}
+.course-card:hover{
+	background-color: rgb(142, 142, 142);
+}

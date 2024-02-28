@@ -1,0 +1,44 @@
+html,
+body {
+	height: 100vh;
+}
+main {
+	height: 90%;
+	width: 100%;
+}
+.container {
+	padding-inline: 10px;
+	height: 100%;
+}
+.btns {
+	display: flex;
+	gap: 5px;
+}
+.topics {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	row-gap: 5px;
+}
+
+.topic {
+	padding-block: 10px;
+	border: 1px gray solid;
+	color: black;
+	transition: all 0.4s ease-in-out;
+	border-radius: 5px;
+	margin-left: -30px;
+}
+.topic:hover {
+	background: #2f3a7e;
+	color: white;
+}
+
+.topic > a {
+	max-width: calc(100vw - 20px);
+	text-decoration: none;
+	color: inherit;
+	margin-left: 15px;
+	text-wrap: wrap;
+}

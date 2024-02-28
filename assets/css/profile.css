@@ -1,0 +1,16 @@
+
+html,body {
+	height: 100vh;
+}
+main {
+	height: 90%;
+	width: 100%;
+}
+.container {
+	padding-inline: 10px;
+	height: 100%;
+}
+.btns{
+	display: flex;
+	gap: 5px;
+}
